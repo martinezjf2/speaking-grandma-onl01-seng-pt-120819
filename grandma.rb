@@ -4,22 +4,20 @@
 
 def speak_to_grandma(string)
   
-  speak_to_grandma("I love you grandma!".upcase)
-  
-  if speak_to_grandma("I LOVE YOU GRANDMA!")
-      puts "I love you pumpkin!".upcase
+  if string == "I LOVE YOU GRANDMA!"
+      puts "I LOVE YOU TOO PUMPKIN!"
  
-   elsif speak_to_grandma("Hi Nana, how are you?")
-      puts "huh?! speak up, sonny!".upcase
+   elsif string == "Hi Nana, how are you?"
+      puts "HUH?! SPEAK UP, SONNY!"
   
-   elsif speak_to_grandma("Hi!")
-      puts "huh?! speak up, sonny!".upcase
+   elsif string == "Hi!"
+      puts "HUH?! SOEAK UP, SONNY!"
 
-    elsif speak_to_grandma("WHAT DID YOU EAT TODAY?")
-      puts "no, not since 1938!".upcase
+    elsif string == "WHAT DID YOU EAT TODAY?"
+      puts "NO, NOT SINCE 1938!"
   
-    else speak_to_grandma("WHAT?")
-      puts "no, not since 1938!".upcase
+    else string == "WHAT?"
+      puts "NO, NOT SINCE 1938!"
   end
 end
 
