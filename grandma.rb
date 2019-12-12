@@ -4,6 +4,8 @@
 
 def speak_to_grandma(string)
   
+  speak_to_grandma("I love you grandma!".upcase)
+  
   if speak_to_grandma("I LOVE YOU GRANDMA!")
       puts "I love you pumpkin!".upcase
  
@@ -21,7 +23,6 @@ def speak_to_grandma(string)
   end
 end
 
-return speak_to_grandma()
 
 # describe '#speak_to_grandma' do
 #   it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
