@@ -7,17 +7,11 @@ def speak_to_grandma(string)
   if string == "I LOVE YOU GRANDMA!"
       return "I LOVE YOU TOO PUMPKIN!"
  
-   elsif string == "Hi Nana, how are you?"
-      puts "HUH?! SPEAK UP, SONNY!"
+   elsif string == string.upcase
+      return "NO, NOT SINCE 1938!"
   
-   elsif string == "Hi!"
-      puts "HUH?! SOEAK UP, SONNY!"
-
-    elsif string == "WHAT DID YOU EAT TODAY?"
-      puts "NO, NOT SINCE 1938!"
-  
-    else string == "WHAT?"
-      puts "NO, NOT SINCE 1938!"
+    else
+      return "HUH?! SPEAK UP, SONNY!"
   end
 end
 
